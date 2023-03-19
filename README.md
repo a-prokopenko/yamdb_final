@@ -1,6 +1,6 @@
 
 
-![API for YaMDB project workflow](https://github.com/a-prokopenko/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=main)
+[![api_yamdb workflow](https://github.com/a-prokopenko/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/a-prokopenko/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 # YaMDb
 Проект YaMDb собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Произведению может быть присвоен жанр. Новые жанры может создавать только администратор. Читатели оставляют к произведениям текстовые отзывы и выставляют произведению рейтинг (оценку в диапазоне от одного до десяти). Из множества оценок автоматически высчитывается средняя оценка произведения.
