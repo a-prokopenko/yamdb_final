@@ -2,6 +2,9 @@ name: Django-app workflow
 
 on:
   push:
+    branches: 
+      - master
+      - '*'
     paths-ignore:
       - '**/yamdb_workflow.yml'
       - '**/README.md'
@@ -67,6 +70,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           key: ${{ secrets.SSH_KEY }}
           script: |
+            sudo docker pull ${{ secrets.USER }}/yamdb_api:v1.0
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env
