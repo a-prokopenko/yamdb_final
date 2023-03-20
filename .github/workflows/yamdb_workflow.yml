@@ -5,6 +5,7 @@ on:
     branches:
       - master
     paths-ignore:
+      - '**/yamdb_workflow.yml'
       - '**/README.md'
 
 jobs:
