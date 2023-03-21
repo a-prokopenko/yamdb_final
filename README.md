@@ -65,3 +65,11 @@ docker-compose down
 Полная документация проекта с примерами запросов доступна по адресу [localhost/redoc](http://localhost/redoc)
 
 Протестировать проект можно по адресу: [http://51.250.92.9/api/v1/](http://51.250.92.9/api/v1/)
+
+
+<details>
+<summary>Токен для авторизации: </summary>
+
+    Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc5NDQzOTQ4LCJpYXQiOjE2NzkzNTc1NDgsImp0aSI6ImU3ZDI4Y2E0M2ZjODQ1M2JiNWJlNDVmNThjNGEyOTU4IiwidXNlcl9pZCI6MX0.5o7Kgez17db3G776iuq_7Z2_InwbkqPRF1loHO_NwmU
+
+</details>
