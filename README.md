@@ -34,6 +34,7 @@ git clone https://github.com/a-prokopenko/yamdb_final.git
 ```
 3. В директории `yamdb_final/infra/` создайте файл `.env` в котором пропишите следующие переменные окружения (для тестирования можете использовать указанные значения переменных):
 ```
+SECRET_KEY=<секретный ключ проекта django>
 DB_ENGINE=django.db.backends.postgresql
 DB_NAME=postgres
 POSTGRES_USER=postgres
