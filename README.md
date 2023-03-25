@@ -1,6 +1,6 @@
 [![api_yamdb workflow](https://github.com/a-prokopenko/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/a-prokopenko/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
-# YaMDb
+# API для проекта YaMDB
 Благодаря этому проекту зарегистрированные и аутентифицированные пользователи получают возможность оставлять рецензии на произведения различных категорий, комментировать рецензии других пользователей, просматривать сформированные на основе оценок рейтинги произведений.
 
 # Ресурсы API YaMDb
