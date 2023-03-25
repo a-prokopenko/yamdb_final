@@ -62,4 +62,5 @@
 ```
 docker-compose down
 ```
+
 Полная документация проекта с примерами запросов доступна по адресу [localhost/redoc](http://localhost/redoc)
