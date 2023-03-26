@@ -61,10 +61,10 @@ sudo docker-compose down -v
 2. Войдите на ваш внешний сервер.
 3. Установите Docker и docker-compose из инструкции выше.
 4. Создайе пустой `.env` файл.
-6. Скопируйте файлы docker-compose.yml и nginx.conf из локальной директории `yamdb_final/infra/` на ваш внешний сервер:
+6. Из локальной директории `yamdb_final/infra/` cкопируйте файлы `docker-compose.yml` и `nginx/default.conf` на ваш внешний сервер:
     ```bash
     scp docker-compose.yml <username>@<host>:/home/<username>/docker-compose.yml
-    scp nginx.conf <username>@<host>:/home/<username>/nginx.conf
+    scp default.conf <username>@<host>:/home/<username>/nginx/default.conf
     ```
 7. Добавьте в Secrets GitHub следующие переменные окружения:
 
