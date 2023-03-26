@@ -80,9 +80,9 @@ sudo docker-compose down -v
     DOCKER_USER=<имя пользователя>
     
     USER=<username для подключения к серверу>
-    HOST=<IP сервера>
-    PASSPHRASE=<пароль для сервера, если он установлен>
+    HOST=<IP внешнего сервера>
     SSH_KEY=<ваш локальный SSH ключ (для получения команда: cat ~/.ssh/id_rsa)>
+    PASSPHRASE=<пароль для SSH ключа, если он установлен>
     TELEGRAM_TO=<ID чата, в который придет сообщение>
     TELEGRAM_TOKEN=<токен вашего бота>
     ``` 
