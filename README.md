@@ -127,7 +127,7 @@ sudo docker-compose down -v
 # Примеры запросов
 Регистрация пользователя:
 ```
-POST-запрос http://localhost/api/v1/auth/signup/
+POST-запрос http://localhost/api/v1/auth/signup/:
 {
 "email": "string",
 "username": "string"
@@ -140,7 +140,7 @@ POST-запрос http://localhost/api/v1/auth/signup/
 ```
 Получение JWT-токена:
 ```
-POST-запрос http://localhost/api/v1/auth/token/
+POST-запрос http://localhost/api/v1/auth/token/:
 {
 "username": "string",
 "confirmation_code": "string"
@@ -152,7 +152,7 @@ POST-запрос http://localhost/api/v1/auth/token/
 ```
 Получение списка всех произведений:
 ```
-GET-запрос http://localhost/api/v1/titles/
+GET-запрос http://localhost/api/v1/titles/:
 Ответ:
 {
   "count": 0,
