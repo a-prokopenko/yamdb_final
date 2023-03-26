@@ -125,25 +125,35 @@ sudo docker-compose down -v
    `pass: admin`
 
 # Примеры запросов
-Регистрация пользователя
+Регистрация пользователя:
 ```
-POST http://localhost/api/v1/auth/signup/
+POST-запрос http://localhost/api/v1/auth/signup/
+{
+"email": "string",
+"username": "string"
+}
+Ответ:
 {
 "email": "string",
 "username": "string"
 }
 ```
-Получение JWT-токена
+Получение JWT-токена:
 ```
-POST http://localhost/api/v1/auth/token/
+POST-запрос http://localhost/api/v1/auth/token/
 {
 "username": "string",
 "confirmation_code": "string"
 }
+Ответ:
+{
+  "token": "string"
+}
 ```
-Получение списка всех произведений
+Получение списка всех произведений:
 ```
-GET http://localhost/api/v1/titles/
+GET-запрос http://localhost/api/v1/titles/
+Ответ:
 {
   "count": 0,
   "next": "string",
