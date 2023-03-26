@@ -125,4 +125,45 @@ sudo docker-compose down -v
    `pass: admin`
 
 # Примеры запросов
+Регистрация пользователя
+```
+{
+"email": "string",
+"username": "string"
+}
+```
+Получение JWT-токена
+```
+{
+"username": "string",
+"confirmation_code": "string"
+}
+```
+Получение списка всех произведений
+```
+{
+  "count": 0,
+  "next": "string",
+  "previous": "string",
+  "results": [
+    {
+      "id": 0,
+      "name": "string",
+      "year": 0,
+      "rating": 0,
+      "description": "string",
+      "genre": [
+        {
+          "name": "string",
+          "slug": "string"
+        }
+      ],
+      "category": {
+        "name": "string",
+        "slug": "string"
+      }
+    }
+  ]
+}
+```
 Полная документация проекта с примерами запросов доступна по адресу [localhost/redoc](http://localhost/redoc)
