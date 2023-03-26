@@ -60,13 +60,12 @@ sudo docker-compose down -v
 1. Сделайте fork данного репозитория в ваш профиль и склонируйте его локально.
 2. Войдите на ваш внешний сервер.
 3. Установите Docker и docker-compose из инструкции выше.
-4. Создайе пустой `.env` файл.
-6. Из локальной директории `yamdb_final/infra/` cкопируйте файлы `docker-compose.yml` и `nginx/default.conf` на ваш внешний сервер:
+4. Из локальной директории `yamdb_final/infra/` cкопируйте файлы `docker-compose.yml` и `nginx/default.conf` на ваш внешний сервер:
     ```bash
     scp docker-compose.yml <username>@<host>:/home/<username>/docker-compose.yml
     scp default.conf <username>@<host>:/home/<username>/nginx/default.conf
     ```
-7. Добавьте в Secrets GitHub следующие переменные окружения:
+5. Добавьте в Secrets GitHub следующие переменные окружения:
 
     ```
     SECRET_KEY=<секретный ключ проекта django>
